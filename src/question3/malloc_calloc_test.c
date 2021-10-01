@@ -23,4 +23,6 @@ void main() {
     printf("%d, ", cptr[i]);
   }
   printf("\n");
+  free(mptr);
+  free(cptr);
 }
